@@ -42,5 +42,16 @@ int main()
         std::cout << "Invalid day" << std::endl;
     }
 
+    // SHORT CIRCUIT
+
+    int a = 10, b = 5, i = 5;
+
+    if(a<b || ++i <b)
+    {
+	    
+    }
+    cout << i << endl;
+    return 0;
+
 
 }
